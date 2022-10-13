@@ -1,0 +1,26 @@
+{
+  "name": "production-ready-nodejs-postgresql-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rana-Muhammad-Zeeshan/production-ready-nodejs-postgresql-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rana-Muhammad-Zeeshan/production-ready-nodejs-postgresql-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Rana-Muhammad-Zeeshan/production-ready-nodejs-postgresql-boilerplate#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "pg": "^8.8.0"
+  }
+}
