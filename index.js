@@ -7,8 +7,9 @@ const databaseConnectionObject = require('./src/config/databaseConnectionObject'
 pool
   .connect(databaseConnectionObject)
   .then(() => {
-    expressApp().listen(3005, () => {
-      console.log('listening on port 3005')
+    const serverPort = process.env.SERVER_PORT || 3090
+    expressApp().listen(serverPort, () => {
+      console.log(`listening on port ${serverPort}`)
     })
   })
   .catch((error) => {
