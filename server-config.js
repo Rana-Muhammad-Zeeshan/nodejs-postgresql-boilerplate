@@ -1,5 +1,5 @@
 const serverConfig = {
-  jwtSecret: 'sau27365276asdbasdnmabs??>?>??2321%%%89273912372198',
+  jwtSecret: `${process.env.JWT_SECRET}`,
 }
 
 module.exports = serverConfig
